@@ -8,7 +8,7 @@ contract AtomicSwapTest is Test {
     AtomicSwap public atomicSwap;
 
     function setUp() public {
-        atomicSwap = new AtomicSwap();
+        atomicSwap = new AtomicSwap(address(0));
     }
 
     function test_Increment() public {
