@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@polytope-labs/ismp-solidity": "^0.3.1"
+  }
+}

@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.26;
+pragma solidity ^0.8.17;
 
+import "@polytope-labs/ismp-solidity/interfaces/IIsmpModule.sol";
 import "./ERC20.sol";
 
 contract AtomicSwap {
